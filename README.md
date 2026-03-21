@@ -52,6 +52,7 @@ Release and CI notes are in `docs/release.md`. The GitHub Actions workflow is `.
 
 Documentation:
 
+- [User Guide](https://www.opsatscale.com/opsatscale-framework/cdad-user-guide/)
 - [Quickstart](docs/quickstart.md)
 - [Start Now Guide](docs/start-now-guide.md)
 - [Command Reference](docs/command-reference.md)
