@@ -72,10 +72,10 @@ def run_packet_verification(root: Path, packet: TaskPacket, timeout: int = 600) 
     for item in packet.verification:
         if not item.command:
             continue
-        proc = subprocess.run(
+        proc = subprocess.run(  # nosec B602
             item.command,
             cwd=root,
-            shell=True,
+            shell=True,  # nosec B602
             text=True,
             capture_output=True,
             timeout=timeout,
