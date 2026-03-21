@@ -1,0 +1,16 @@
+$ cdad_cmd next --heuristic dependency-first --json
+{
+  "schema": "cdad.next_selection.v1",
+  "heuristic": "dependency-first",
+  "selected": {
+    "task_id": "AUTH-ML-01",
+    "goal_id": "AUTH-MAGIC-LINK",
+    "status": "Draft",
+    "priority": 1,
+    "risk": 4,
+    "value": 5,
+    "depends_on": [],
+    "rank_reason": "dependencies=0, priority=1, risk=4"
+  },
+  "blocked": []
+}

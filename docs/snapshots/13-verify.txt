@@ -1,0 +1,2 @@
+$ cdad_cmd verify AUTH-ML-01
+wrote agent/verification/AUTH-ML-01-verification.md

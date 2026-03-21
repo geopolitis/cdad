@@ -1,0 +1,2 @@
+$ cdad_cmd trace --json --output agent/reports/trace.json
+wrote agent/reports/trace.json

@@ -1,0 +1,28 @@
+$ cdad_cmd --help
+usage: cdad [-h] [--root ROOT]
+            {init,goal,packet,validate,design,context,verify,verification,next,integration,progress,trace,coverage,benchmark,ci,doctor} ...
+
+Context-Disciplined Agent Development CLI
+
+positional arguments:
+  {init,goal,packet,validate,design,context,verify,verification,next,integration,progress,trace,coverage,benchmark,ci,doctor}
+    init                Create the default CDAD project layout
+    goal                Manage durable CDAD goal records
+    packet              Manage task packets
+    validate            Validate packet schemas and CDAD layout
+    design              Validate prompt/design artifacts
+    context             Create a compact context bundle for a packet
+    verify              Run packet verification commands and save evidence
+    verification        Detect project verification commands
+    next                Choose the next packet
+    integration         Generate thin agent integration commands
+    progress            Append resumable progress entries
+    trace               Print requirement to packet to evidence traceability
+    coverage            Analyze goal-to-packet coverage
+    benchmark           Emit CDAD workflow metrics
+    ci                  Run CDAD quality gates for CI
+    doctor              Check for expected CDAD folders
+
+options:
+  -h, --help            show this help message and exit
+  --root ROOT           Project root

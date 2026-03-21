@@ -1,0 +1,15 @@
+{
+    "schema": "cdad.goal_coverage_report.v1",
+    "status": "passed",
+    "goals": [
+        {
+            "goal_id": "AUTH-MAGIC-LINK",
+            "scope_in_count": 1,
+            "linked_packets": [
+                "AUTH-ML-01"
+            ],
+            "linked_packet_count": 1
+        }
+    ],
+    "findings": []
+}

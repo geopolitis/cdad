@@ -1,0 +1,2 @@
+$ cdad_cmd context AUTH-ML-01 --budget 12000
+wrote agent/verification/AUTH-ML-01-context.md

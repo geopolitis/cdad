@@ -1,0 +1,2 @@
+$ cdad_cmd progress add AUTH-ML-01 --goal Magic link request handling --file src/auth/magic_link.py --file tests/test_magic_link.py --verification PYTHONPATH=. python3 -m unittest discover -s tests -v passed --result Passed --next Create AUTH-ML-02 for HTTP endpoint routing.
+updated agent/progress/progress.md

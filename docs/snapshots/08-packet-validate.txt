@@ -1,0 +1,3 @@
+$ cdad_cmd validate --strict-paths --report
+wrote agent/reports/AUTH-ML-01-packet-validation.json
+agent/packets/AUTH-ML-01.json: ok

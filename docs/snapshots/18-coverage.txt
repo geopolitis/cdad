@@ -1,0 +1,3 @@
+$ cdad_cmd coverage --report
+wrote agent/reports/goal-coverage.json
+goal coverage: ok

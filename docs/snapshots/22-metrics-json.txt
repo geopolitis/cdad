@@ -1,0 +1,14 @@
+{
+    "schema": "cdad.benchmark_report.v1",
+    "generated_at": "2026-03-21T18:34:00+00:00",
+    "metrics": {
+        "packets_total": 1,
+        "packets_passed": 1,
+        "verification_pass_rate": 1.0,
+        "context_bundle_tokens": 745,
+        "verification_records": 1,
+        "progress_entries": 1,
+        "rework_mentions": 0,
+        "avg_time_to_verified_seconds": 0.47557
+    }
+}

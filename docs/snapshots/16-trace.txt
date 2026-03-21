@@ -1,0 +1,4 @@
+$ cdad_cmd trace
+| Goal | Packet | Status | Depends On | References | Evidence | Progress |
+| --- | --- | --- | --- | --- | --- | --- |
+| AUTH-MAGIC-LINK | AUTH-ML-01 | Passed | None | docs/specs/AUTH-MAGIC-LINK.goal.json, docs/specs/magic-link-design.md | agent/verification/AUTH-ML-01-context.md, agent/verification/AUTH-ML-01-verification.md | yes |

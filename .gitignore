@@ -1,0 +1,60 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.sweed
+.pytest_cache/
+.hypothesis/
+
+# macOS
+.DS_Store
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# CDAD specific (if you prefer not to track temporary or local plans)
+.drafts/
+.plans/
+.plan/
+
+# AI Coding Assistants / Agents
+.claude/
+.cursor/
+
+# CDAD Generated Outputs
+# We ignore these because we only want to track the core CDAD tools and templates.
+# The actual outputs (memory, packets, verification) stay local.
+agent/
+docs/architecture/
+docs/decisions/
+docs/specs/
+cdad.config.json

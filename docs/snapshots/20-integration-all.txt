@@ -1,0 +1,5 @@
+$ cdad_cmd integration generate --all --force
+wrote agent/integrations/codex-cdad.md
+wrote .claude/commands/cdad.md
+wrote .cursor/commands/cdad.md
+wrote .github/prompts/cdad.prompt.md

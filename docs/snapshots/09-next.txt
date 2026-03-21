@@ -1,0 +1,2 @@
+$ cdad_cmd next --heuristic dependency-first
+AUTH-ML-01 (Draft) goal=AUTH-MAGIC-LINK priority=1 risk=4 value=5 reason=dependencies=0, priority=1, risk=4

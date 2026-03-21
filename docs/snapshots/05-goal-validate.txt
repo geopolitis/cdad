@@ -1,0 +1,3 @@
+$ cdad_cmd goal validate --report
+wrote agent/reports/AUTH-MAGIC-LINK-goal-validation.json
+docs/specs/AUTH-MAGIC-LINK.goal.json: ok
