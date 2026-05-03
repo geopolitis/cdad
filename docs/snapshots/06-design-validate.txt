@@ -1,0 +1,3 @@
+$ cdad_cmd design validate docs/specs/magic-link-design.md --report
+wrote agent/reports/magic-link-design-design-validation.json
+docs/specs/magic-link-design.md: ok

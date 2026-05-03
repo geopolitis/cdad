@@ -1,0 +1,14 @@
+$ cdad_cmd init
+created docs/architecture
+created docs/decisions
+created docs/specs
+created agent/memory
+created agent/packets
+created agent/progress
+created agent/verification
+created agent/reports
+created agent/integrations
+created agent/benchmarks
+created agent/memory/project.md
+created agent/progress/progress.md
+created cdad.config.json

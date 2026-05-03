@@ -1,0 +1,39 @@
+{
+    "schema": "cdad.trace.v1",
+    "packets": [
+        {
+            "goal_id": "AUTH-MAGIC-LINK",
+            "task_id": "AUTH-ML-01",
+            "status": "Passed",
+            "depends_on": [],
+            "references": [
+                "docs/specs/AUTH-MAGIC-LINK.goal.json",
+                "docs/specs/magic-link-design.md"
+            ],
+            "evidence": [
+                "agent/verification/AUTH-ML-01-context.md",
+                "agent/verification/AUTH-ML-01-verification.md"
+            ],
+            "validation_reports": [
+                "agent/reports/AUTH-ML-01-packet-validation.json"
+            ],
+            "progress_entries": [
+                {
+                    "timestamp": "2026-03-21T18:34:00+00:00",
+                    "changed_files": [
+                        "src/auth/magic_link.py",
+                        "tests/test_magic_link.py"
+                    ],
+                    "verification": "PYTHONPATH=. python3 -m unittest discover -s tests -v passed",
+                    "result": "Passed",
+                    "next_step": "Create AUTH-ML-02 for HTTP endpoint routing."
+                }
+            ],
+            "changed_files": [
+                "src/auth/magic_link.py",
+                "tests/test_magic_link.py"
+            ],
+            "has_progress": true
+        }
+    ]
+}

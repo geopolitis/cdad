@@ -1,0 +1,2 @@
+$ cdad_cmd ci
+cdad ci: ok

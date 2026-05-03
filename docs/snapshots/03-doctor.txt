@@ -1,0 +1,2 @@
+$ cdad_cmd doctor
+cdad layout: ok

@@ -1,0 +1,2 @@
+$ cdad_cmd benchmark --output agent/benchmarks/metrics.json
+wrote agent/benchmarks/metrics.json

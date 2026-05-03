@@ -1,0 +1,19 @@
+name: CDAD
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  cdad:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run tests
+        run: PYTHONPATH=src python3 -m unittest discover -s tests -v
+      - name: Validate CDAD artifacts
+        run: PYTHONPATH=src python3 -m cdad_tools.cli --root . ci
+

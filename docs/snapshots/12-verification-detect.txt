@@ -1,0 +1,2 @@
+$ cdad_cmd verification
+[unit] python3 -m unittest discover -s tests -v

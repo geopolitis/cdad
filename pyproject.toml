@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cdad-tools"
+version = "0.1.0"
+description = "Context-Disciplined Agent Development automation scripts"
+requires-python = ">=3.11"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "CDAD contributors" }]
+
+[project.scripts]
+cdad = "cdad_tools.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
